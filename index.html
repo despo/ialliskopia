@@ -1,0 +1,22 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="el" xml:lang="el">
+  <head>
+    <meta charset="utf-8">
+    <title>Φόνοι στην Κύπρο</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
+    <script>
+      $(document).ready(function() {
+        createStoryJS({
+          type:       'timeline',
+          width:      '100%',
+          height:     '100%',
+          source:     'https://docs.google.com/spreadsheet/pub?key=0AoVbsP4gb0D9dG9hZ1ZqMVo3WDJseTJVVWNHb1MyZVE&output=csv',
+          embed_id:   'cyprus-murders-timeline'
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="cyprus-murders-timeline"></div>
+  </body>
+</html>
